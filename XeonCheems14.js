@@ -5391,7 +5391,7 @@ XeonBotInc.sendMessage(m.chat, { text:teksop, mentions: await XeonBotInc.parseMe
 break
     case 'setbotbio':{
 if (!XeonTheCreator) return XeonStickOwner()
-if (!text) return replygcxeon(`Where is the text?\nExample: ${prefix + command} Cheems Bot`)
+if (!text) return replygcxeon(`Where is the text?\nExample: ${prefix + command} Epzi V2`)
     await XeonBotInc.updateProfileStatus(text)
     replygcxeon(`Success in changing the bio of bot's number`)
     }
@@ -16717,7 +16717,7 @@ if (!/webp/.test(mime)) return replygcxeon('Reply sticker!')
                         //let img = await q.download()
                             let img = await XeonBotInc.downloadAndSaveMediaMessage(quoted, makeid(5))
                                 if (!img) return replygcxeon('Reply a sticker!')
-                                    var stiker = await addExifAvatar(img, `Made by`, `Cheems Bot`)
+                                    var stiker = await addExifAvatar(img, `Made by`, `Epzi V2`)
                                       } catch (e) {
                                           console.error(e)
                                               if (Buffer.isBuffer(e)) stiker = e

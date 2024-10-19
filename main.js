@@ -112,7 +112,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
          creds: state.creds,
          keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
       },
-      markOnlineOnConnect: true, // set false for offline
+      markOnlineOnConnect: false, // set false for offline
       generateHighQualityLinkPreview: true, // make high preview link
       getMessage: async (key) => {
             if (store) {
@@ -120,7 +120,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
                 return msg.message || undefined
             }
             return {
-                conversation: "Cheems Bot Here!"
+                conversation: "Epzi V2 Here!"
             }
         },
       msgRetryCounterCache, // Resolve waiting messages
@@ -491,7 +491,7 @@ ppgroup = 'https://i.ibb.co/RBx5SQC/avatar-group-large-v2.png?q=60'
             return msg?.message
         }
         return {
-            conversation: "Cheems Bot Here!"
+            conversation: "Epzi V2 Here!"
         }
     }
     XeonBotInc.ev.on('messages.update', async chatUpdate => {
