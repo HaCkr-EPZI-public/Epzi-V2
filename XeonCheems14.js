@@ -1,11 +1,11 @@
 //base by DGXeon
 //re-upload? recode? copy code? give credit ya :)
 //YouTube: @DGXeon
-//Instagram: unicorn_xeon13
+//Instagram: yuren.sasanka
 //Telegram: t.me/xeonbotinc
 //GitHub: @DGXeon
-//WhatsApp: +916909137213
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
+//WhatsApp: +94759554531
+//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@EPZi
 require('./lib/listmenu')
 const {
 	downloadContentFromMessage,
@@ -432,14 +432,14 @@ contextInfo: {
 forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
-newsletterName: "Click here to get $69",
+newsletterName: "Error - Epzi v2",
 newsletterJid: "120363222395675670@newsletter",
 },
 externalAdReply: {  
 showAdAttribution: true,
 title: botname,
 body: ownername,
-thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
 sourceUrl: websitex
 },
 },
@@ -458,7 +458,7 @@ quoted: m,
             }, 
                message: {  
                   "imageMessage": { 
-                     "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", 
+                     "url": "https://mmg.whatsapp.net/d/", 
                      "mimetype": "image/jpeg", 
                      "caption": botname,
                      "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", 
@@ -484,8 +484,8 @@ quoted: m,
 		const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us","inviteCode": "m","groupName": wm, "caption": `${pushname}`, 'jpegThumbnail': thumb}}}
 		const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {}) },message: { "videoMessage": { "title":botname, "h": wm,'seconds': '359996400', 'caption': `${pushname}`, 'jpegThumbnail': thumb}}}
 		const floc = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: wm,jpegThumbnail: thumb}}}
-		const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': ownername, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${ownername},;;;\nFN:${ownername}\nitem1.TEL;waid=916909137213:916909137213\nitem1.X-ABLabel:Mobile\nEND:VCARD`, 'jpegThumbnail': thumb, thumbnail: thumb,sendEphemeral: true}}}
-	    const fakestatus = {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {})},message: { "imageMessage": {"url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc","mimetype": "image/jpeg","caption": wm,"fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=","fileLength": "28777","height": 1080,"width": 1079,"mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=","fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=","directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69","mediaKeyTimestamp": "1610993486","jpegThumbnail": fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),"scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="}}}
+		const fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': ownername, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${ownername},;;;\nFN:${ownername}\nitem1.TEL;waid=94759554531:94759554531\nitem1.X-ABLabel:Mobile\nEND:VCARD`, 'jpegThumbnail': thumb, thumbnail: thumb,sendEphemeral: true}}}
+	    const fakestatus = {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {})},message: { "imageMessage": {"url": "https://mmg.whatsapp.net/","mimetype": "image/jpeg","caption": wm,"fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=","fileLength": "28777","height": 1080,"width": 1079,"mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=","fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=","directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69","mediaKeyTimestamp": "1610993486","jpegThumbnail": fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),"scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="}}}
 	    const frpayment = {
 	key: {
 		remoteJid: '0@s.whatsapp.net',
@@ -1505,9 +1505,9 @@ fs.writeFileSync('./src/data/role/user.json', JSON.stringify(xeonverifieduser, n
         `Susbcribe Developer's YouTube Channel To Get Updates`, // Body message
         botname, // Footer message
         'Visit', // Button display text
-        'https://youtube.com/@dgxeon', // Command (URL in this case)
+        'https://youtube.com/@EPZi', // Command (URL in this case)
         'cta_url', // Button type
-        'https://youtube.com/@dgxeon' // URL (used in image generation)
+        'https://youtube.com/@EPZi' // URL (used in image generation)
     ], 
     [
         'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/1024px-Telegram_2019_Logo.svg.png', // Image URL
@@ -1515,9 +1515,9 @@ fs.writeFileSync('./src/data/role/user.json', JSON.stringify(xeonverifieduser, n
         `Susbcribe Developer's Telegram Channel To Get Updates`, // Body message
         botname, // Footer message
         'Visit', // Button display text
-        'http://t.me/xeonbotinc', // Command (URL in this case)
+        'http://t.me/yurensasanka', // Command (URL in this case)
         'cta_url', // Button type
-        'http://t.me/xeonbotinc' // URL (used in image generation)
+        'http://t.me/yurensasanka' // URL (used in image generation)
     ], 
     [
         'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/360px-GitHub_Invertocat_Logo.svg.png', // Image URL
@@ -1525,9 +1525,9 @@ fs.writeFileSync('./src/data/role/user.json', JSON.stringify(xeonverifieduser, n
         `Follow Developer On GitHub`, // Body message
         botname, // Footer message
         'Visit', // Button display text
-        'https://github.com/DGXeon', // Command (URL in this case)
+        'https://github.com/HaCkr-EPZI-public', // Command (URL in this case)
         'cta_url', // Button type
-        'https://github.com/DGXeon' // URL (used in image generation)
+        'https://github.com/HaCkr-EPZI-public' // URL (used in image generation)
     ], 
     [
         'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/264px-Instagram_logo_2016.svg.png', // Image URL
@@ -1535,9 +1535,9 @@ fs.writeFileSync('./src/data/role/user.json', JSON.stringify(xeonverifieduser, n
         `Follow Developer On Instagram`, // Body message
         botname, // Footer message
         'Visit', // Button display text
-        'https://www.instagram.com/unicorn_xeon13', // Command (URL in this case)
+        'https://www.instagram.com/yuren.sasanka', // Command (URL in this case)
         'cta_url', // Button type
-        'https://www.instagram.com/unicorn_xeon13' // URL (used in image generation)
+        'https://www.instagram.com/yuren.sasanka' // URL (used in image generation)
     ], 
     [
         'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png', // Image URL
@@ -1545,9 +1545,9 @@ fs.writeFileSync('./src/data/role/user.json', JSON.stringify(xeonverifieduser, n
         `Contact Developer On WhatsApp`, // Body message
         botname, // Footer message
         'Visit', // Button display text
-        'https://Wa.me/916909137213', // Command (URL in this case)
+        'https://Wa.me/94759554531', // Command (URL in this case)
         'cta_url', // Button type
-        'https://Wa.me/916909137213' // URL (used in image generation)
+        'https://Wa.me/94759554531' // URL (used in image generation)
     ], 
 ];
 
@@ -2033,7 +2033,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             break
             case 'delprem':
                 if (!XeonTheCreator) return XeonStickOwner()
-                if (args.length < 1) return replygcxeon(`Usage ${prefix + command} @tag\n${prefix + command} number\n\nExample : ${prefix + command} 916909137213`)
+                if (args.length < 1) return replygcxeon(`Usage ${prefix + command} @tag\n${prefix + command} number\n\nExample : ${prefix + command} 94759554531`)
                 if (m.mentionedJid.length !== 0) {
                     for (let i = 0; i < m.mentionedJid.length; i++) {
                         premium.splice(getPremiumPosition(m.mentionedJid[i], premium), 1)
@@ -2074,7 +2074,7 @@ replygcxeon(`Number ${bnnd} Has Become An Owner!!!`)
 break
 case 'delowner':
 if (!XeonTheCreator) return XeonStickOwner()
-if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 94759554531`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')
 unp = owner.indexOf(ya)
 owner.splice(unp, 1)
@@ -3406,7 +3406,7 @@ case 'block': case 'ban': {
                                 showAdAttribution: true,
                                 title: botname,
                                 body: `Sent in ${i.length} Group`,
-                                thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+                                thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
                                 sourceUrl: wagc,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -5139,7 +5139,7 @@ await XeonBotInc.relayMessage(msg.key.remoteJid, msg.message, {
             case 'invite': {
 	if (!m.isGroup) return XeonStickGroup()
 	if (!isBotAdmins) return XeonStickBotAdmin()
-if (!text) return replygcxeon(`Enter the number you want to invite to the group\n\nExample :\n*${prefix + command}* 916909137213`)
+if (!text) return replygcxeon(`Enter the number you want to invite to the group\n\nExample :\n*${prefix + command}* 94759554531`)
 if (text.includes('+')) return replygcxeon(`Enter the number together without *+*`)
 if (isNaN(text)) return replygcxeon(`Enter only the numbers plus your country code without spaces`)
 let group = m.chat
@@ -5993,7 +5993,7 @@ break
                             showAdAttribution: true,
                             title: botname,
                             body: ownername,
-                            thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+                            thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
                             sourceUrl: wagc,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -6031,7 +6031,7 @@ break
                                 showAdAttribution: true,
                                 title: botname,
                                 body: ownername,
-                                thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+                                thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
                                 sourceUrl: wagc,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -6047,7 +6047,7 @@ break
                                 showAdAttribution: true,
                                 title: botname,
                                 body: ownername,
-                                thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+                                thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
                                 sourceUrl: wagc,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -6068,7 +6068,7 @@ break
                             showAdAttribution: true,
                             title: botname,
                             body: ownername,
-                            thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+                            thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
                             sourceUrl: wagc,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -7258,7 +7258,7 @@ case 'sound158':
 case 'sound159':
 case 'sound160':
 case 'sound161':
-XeonBotInc_dev = await getBuffer(`https://github.com/DGXeon/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
+XeonBotInc_dev = await getBuffer(`https://github.com/HaCkr-EPZI-public/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
 await XeonBotInc.sendMessage(m.chat, { audio: XeonBotInc_dev, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 break
 case 'friend':
@@ -7465,7 +7465,7 @@ await XeonBotInc.sendMessage(m.chat,{
 }
 break
 case 'git': case 'gitclone':
-if (!args[0]) return replygcxeon(`Where is the link?\nExample :\n${prefix}${command} https://github.com/DGXeon/XeonMedia`)
+if (!args[0]) return replygcxeon(`Where is the link?\nExample :\n${prefix}${command} https://github.com/HaCkr-EPZI-public/XeonMedia`)
 if (!isUrl(args[0]) && !args[0].includes('github.com')) return replygcxeon(`Link invalid!!`)
 let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
     let [, user, repo] = args[0].match(regex1) || []
@@ -7615,7 +7615,7 @@ case 'tiktokstalk': {
 }
 break
 case 'xxxigstalk': {
-if (!text) return replygcxeon(`Enter Instagram Username\n\nExample: ${prefix + command} unicorn_xeon13`)
+if (!text) return replygcxeon(`Enter Instagram Username\n\nExample: ${prefix + command} yuren.sasanka`)
     let res = await fg.igStalk(text)
     let te = `
 ┌──「 *STALKING* 
@@ -18956,7 +18956,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -18981,7 +18981,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -19014,7 +19014,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -19022,11 +19022,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -19076,7 +19076,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -19084,11 +19084,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -19240,7 +19240,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -19248,11 +19248,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -19384,7 +19384,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -19410,7 +19410,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -19443,7 +19443,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -19451,11 +19451,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -19505,7 +19505,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -19513,11 +19513,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -19590,7 +19590,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -19598,11 +19598,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -19734,7 +19734,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -19760,7 +19760,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -19793,7 +19793,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -19801,11 +19801,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -19855,7 +19855,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -19863,11 +19863,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -19940,7 +19940,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -19948,11 +19948,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -20084,7 +20084,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -20110,7 +20110,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -20143,7 +20143,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -20151,11 +20151,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -20205,7 +20205,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -20213,11 +20213,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -20290,7 +20290,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -20298,11 +20298,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -20434,7 +20434,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -20460,7 +20460,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -20493,7 +20493,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -20501,11 +20501,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -20555,7 +20555,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -20563,11 +20563,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -20640,7 +20640,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -20648,11 +20648,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -20784,7 +20784,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -20810,7 +20810,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -20843,7 +20843,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -20851,11 +20851,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -20905,7 +20905,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -20913,11 +20913,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -20990,7 +20990,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -20998,11 +20998,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -21134,7 +21134,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -21160,7 +21160,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -21193,7 +21193,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -21201,11 +21201,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -21255,7 +21255,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -21263,11 +21263,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -21340,7 +21340,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -21348,11 +21348,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -21484,7 +21484,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -21510,7 +21510,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -21543,7 +21543,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -21551,11 +21551,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -21605,7 +21605,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -21613,11 +21613,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -21690,7 +21690,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -21698,11 +21698,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -21834,7 +21834,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -21860,7 +21860,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -21893,7 +21893,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -21901,11 +21901,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -21955,7 +21955,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -21963,11 +21963,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -22040,7 +22040,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -22048,11 +22048,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -22184,7 +22184,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -22210,7 +22210,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -22243,7 +22243,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -22251,11 +22251,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -22305,7 +22305,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -22313,11 +22313,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -22390,7 +22390,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -22398,11 +22398,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -22534,7 +22534,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -22560,7 +22560,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -22593,7 +22593,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -22601,11 +22601,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -22655,7 +22655,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -22663,11 +22663,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -22740,7 +22740,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -22748,11 +22748,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -22884,7 +22884,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -22910,7 +22910,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -22943,7 +22943,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -22951,11 +22951,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -23005,7 +23005,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -23013,11 +23013,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -23090,7 +23090,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -23098,11 +23098,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -23234,7 +23234,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -23260,7 +23260,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -23293,7 +23293,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -23301,11 +23301,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -23355,7 +23355,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -23363,11 +23363,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -23440,7 +23440,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -23448,11 +23448,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -23584,7 +23584,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -23610,7 +23610,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -23643,7 +23643,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -23651,11 +23651,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -23705,7 +23705,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -23713,11 +23713,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -23790,7 +23790,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -23798,11 +23798,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -23934,7 +23934,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -23960,7 +23960,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -23993,7 +23993,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -24001,11 +24001,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -24055,7 +24055,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -24063,11 +24063,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -24140,7 +24140,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -24148,11 +24148,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -24284,7 +24284,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -24310,7 +24310,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -24343,7 +24343,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -24351,11 +24351,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -24405,7 +24405,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -24413,11 +24413,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -24490,7 +24490,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -24498,11 +24498,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -24634,7 +24634,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -24660,7 +24660,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -24693,7 +24693,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -24701,11 +24701,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -24755,7 +24755,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -24763,11 +24763,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -24840,7 +24840,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -24848,11 +24848,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -24984,7 +24984,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -25010,7 +25010,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -25043,7 +25043,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -25051,11 +25051,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -25105,7 +25105,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -25113,11 +25113,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -25190,7 +25190,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -25198,11 +25198,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -25334,7 +25334,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -25360,7 +25360,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -25393,7 +25393,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -25401,11 +25401,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -25455,7 +25455,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -25463,11 +25463,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -25540,7 +25540,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -25548,11 +25548,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -25684,7 +25684,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -25710,7 +25710,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -25743,7 +25743,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -25751,11 +25751,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -25805,7 +25805,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -25813,11 +25813,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -25890,7 +25890,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -25898,11 +25898,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -26034,7 +26034,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -26060,7 +26060,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -26093,7 +26093,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -26101,11 +26101,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -26155,7 +26155,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -26163,11 +26163,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -26240,7 +26240,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -26248,11 +26248,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -26384,7 +26384,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -26410,7 +26410,7 @@ externalAdReply: {
 showAdAttribution: true,
 title: ownername,
 body: botname,
-thumbnailUrl: "https://i.ibb.co/Wppj16p/cheemspic.jpg",
+thumbnailUrl: "https://i.ibb.co/Pr4BfhZ/1500x1500.png",
 sourceUrl: websitex,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -26443,7 +26443,7 @@ let msg = generateWAMessageFromContent(from, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -26451,11 +26451,11 @@ let msg = generateWAMessageFromContent(from, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
   "name": "quick_reply",
@@ -26505,7 +26505,7 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -26513,11 +26513,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -26590,7 +26590,7 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@EPZi\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
@@ -26598,11 +26598,11 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/DGXeon\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/HaCkr-EPZI-public\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                 "name": "quick_reply",
@@ -27017,7 +27017,7 @@ replygcxeon(`*Successfully sent as many bugs as ${amount} Please pause for 3 min
 break
 case 'pmbug' :{
  if (!isPremium) return replygcxeon(mess.premium)
- if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+ if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
  await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -27038,7 +27038,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'delaybug' : {
 if (!isPremium) return replygcxeon(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -27059,9 +27059,9 @@ replygcxeon(`*Successfully Sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'docubug': {
 if (!isPremium) return replygcxeon(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
 await loading()
-if (args.length < 1) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (args.length < 1) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "15"
 for (let i = 0; i < amount; i++) {
@@ -27081,7 +27081,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'unlimitedbug' : {
 if (!isPremium) return replygcxeon(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -27102,7 +27102,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'bombug': {
 if (!isPremium) return replygcxeon(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -27123,7 +27123,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'lagbug' : {
 if (!isPremium) return replygcxeon(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -27144,7 +27144,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'trollybug': {
 if (!isPremium) return replygcxeon(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "15"
@@ -27158,7 +27158,7 @@ var order = generateWAMessageFromContent(from, proto.Message.fromObject({
 "surface": "CATALOG",
 "message": `${botname}`,
 "orderTitle": " TROLLY BUG ", 
-"sellerJid": "916909137213@s.whatsapp.net",
+"sellerJid": "94759554531@s.whatsapp.net",
 "token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
 }
 }), { userJid: from, quoted:m})
@@ -27294,7 +27294,7 @@ var order = generateWAMessageFromContent(from, proto.Message.fromObject({
 "surface": "CATALOG",
 "message": `${botname}`,
 "orderTitle": " TROLLY BUG ", 
-"sellerJid": "916909137213@s.whatsapp.net",
+"sellerJid": "94759554531@s.whatsapp.net",
 "token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
 }
 }), { userJid: from, quoted:m})
@@ -27329,7 +27329,7 @@ break
 //ban/unban cases
 case 'out': case 'verif':{
 if (!isPremium) return replyprem(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916969696969`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
 let xeonnumx = `+`+q.split("|")[0].replace(/[^0-9]/g, '')
 let xeontesx = await XeonBotInc.onWhatsApp(xeonnumx)
 if (xeontesx.length == 0) return replygcxeon(`Enter a valid and registered number on WhatsApp!!!`)
@@ -27373,7 +27373,7 @@ XeonBotInc.sendMessage(from, { text: util.format(res.data)}, { quoted: m })
 break
 case 'banv1': {
 if (!isPremium) return replyprem(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916969696969`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
 let xeonnumx = `+`+q.split("|")[0].replace(/[^0-9]/g, '')
 let xeontesx = await XeonBotInc.onWhatsApp(xeonnumx)
 if (xeontesx.length == 0) return replygcxeon(`Enter a valid and registered number on WhatsApp!!!`)
@@ -27417,7 +27417,7 @@ XeonBotInc.sendMessage(from, { text: util.format(res.data)}, { quoted: m })
 break
 case 'banv2': {
 if (!isPremium) return replyprem(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916969696969`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
 let xeonnumx = `+`+q.split("|")[0].replace(/[^0-9]/g, '')
 let xeontesx = await XeonBotInc.onWhatsApp(xeonnumx)
 if (xeontesx.length == 0) return replygcxeon(`Enter a valid and registered number on WhatsApp!!!`)
@@ -27461,7 +27461,7 @@ XeonBotInc.sendMessage(from, { text: util.format(res.data)}, { quoted: m })
 break
 case 'banv3': {
 if (!isPremium) return replyprem(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916969696969`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
 let xeonnumx = `+`+q.split("|")[0].replace(/[^0-9]/g, '')
 let xeontesx = await XeonBotInc.onWhatsApp(xeonnumx)
 if (xeontesx.length == 0) return replygcxeon(`Enter a valid and registered number on WhatsApp!!!`)
@@ -27505,7 +27505,7 @@ XeonBotInc.sendMessage(from, { text: util.format(res.data)}, { quoted: m })
 break
 case 'banv4': {
 if (!isPremium) return replyprem(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916969696969`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
 let xeonnumx = `+`+q.split("|")[0].replace(/[^0-9]/g, '')
 let xeontesx = await XeonBotInc.onWhatsApp(xeonnumx)
 if (xeontesx.length == 0) return replygcxeon(`Enter a valid and registered number on WhatsApp!!!`)
@@ -27549,7 +27549,7 @@ XeonBotInc.sendMessage(from, { text: util.format(res.data)}, { quoted: m })
 break
 case 'banv5': {
 if (!isPremium) return replyprem(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916969696969`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
 xeonnumx = `+`+q.split("|")[0].replace(/[^0-9]/g, '')
 let xeontesx = await XeonBotInc.onWhatsApp(xeonnumx)
 if (xeontesx.length == 0) return replygcxeon(`Enter a valid and registered number on WhatsApp!!!`)
@@ -27593,7 +27593,7 @@ XeonBotInc.sendMessage(from, { text: util.format(res.data)}, { quoted: m })
 break
 case 'banv6': {
 if (!isPremium) return replyprem(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916969696969`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
 let xeonnumx = `+`+q.split("|")[0].replace(/[^0-9]/g, '')
 let xeontesx = await XeonBotInc.onWhatsApp(xeonnumx)
 if (xeontesx.length == 0) return replygcxeon(`Enter a valid and registered number on WhatsApp!!!`)
@@ -27637,7 +27637,7 @@ XeonBotInc.sendMessage(from, { text: util.format(res.data)}, { quoted: m })
 break
 case 'unbanv1': {
 if (!isPremium) return replyprem(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916969696969`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
 let xeonnumx = `+`+q.split("|")[0].replace(/[^0-9]/g, '')
 let xeontesx = await XeonBotInc.onWhatsApp(xeonnumx)
 if (xeontesx.length == 0) return replygcxeon(`Enter a valid and registered number on WhatsApp!!!`)
@@ -27681,7 +27681,7 @@ XeonBotInc.sendMessage(from, { text: util.format(res.data)}, { quoted: m })
 break
 case 'unbanv2': {
 if (!isPremium) return replyprem(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916969696969`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
 let xeonnumx = `+`+q.split("|")[0].replace(/[^0-9]/g, '')
 let xeontesx = await XeonBotInc.onWhatsApp(xeonnumx)
 if (xeontesx.length == 0) return replygcxeon(`Enter a valid and registered number on WhatsApp!!!`)
@@ -27725,7 +27725,7 @@ XeonBotInc.sendMessage(from, { text: util.format(res.data)}, { quoted: m })
 break
 case 'unbanv3': {
 if (!isPremium) return replyprem(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916969696969`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
 let xeonnumx = `+`+q.split("|")[0].replace(/[^0-9]/g, '')
 let xeontesx = await XeonBotInc.onWhatsApp(xeonnumx)
 if (xeontesx.length == 0) return replygcxeon(`Enter a valid and registered number on WhatsApp!!!`)
@@ -27769,7 +27769,7 @@ XeonBotInc.sendMessage(from, { text: util.format(res.data)}, { quoted: m })
 break
 case 'unbanv4': {
 if (!isPremium) return replyprem(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916969696969`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
 let xeonnumx = `+`+q.split("|")[0].replace(/[^0-9]/g, '')
 let xeontesx = await XeonBotInc.onWhatsApp(xeonnumx)
 if (xeontesx.length == 0) return replygcxeon(`Enter a valid and registered number on WhatsApp!!!`)
@@ -27813,7 +27813,7 @@ XeonBotInc.sendMessage(from, { text: util.format(res.data)}, { quoted: m })
 break
 case 'unbanv5': {
 if (!isPremium) return replyprem(mess.premium)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916969696969`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 94759554531`)
 let xeonnumx = `+`+q.split("|")[0].replace(/[^0-9]/g, '')
 let xeontesx = await XeonBotInc.onWhatsApp(xeonnumx)
 if (xeontesx.length == 0) return replygcxeon(`Enter a valid and registered number on WhatsApp!!!`)
